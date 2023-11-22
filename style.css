@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    background-color:rgb(170, 194, 202)1, 240);
+    min-height:100vh;
+
+
+}
