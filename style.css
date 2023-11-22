@@ -6,25 +6,25 @@
 
 .container{
 
-    background-color: rgb(176, 189, 237)91)0, 55, 255);
+    background-color: rgba(224, 220, 247, 0.916);
     min-height: 100vh;
-    border:10px solid blue;
+    border:10px solid rgb(33, 33, 81);
 
 }
 /* this code for top section  margin  display flex and  space between the image and top section*/ */
 .top_section{
-    margin-top: 100px;
+    /* margin-top: 100px; */
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-
+    
 }
-/* this line for  section h1  */
- .top_section h1{
-
+/* this line for  top_ section h1  */
+.top_section h1{
+    
+    text-align: end;
     font-size: 45px;
     font-weight: bold;
-    color: blue;
+    color: rgb(37, 37, 100);
     text-transform: uppercase;
 
  }
@@ -32,8 +32,9 @@
  /* this line for section h4 */
  .top_section h4{
 
-    text-align: right;
+    text-align: end;
     font-size: 30px;
+    color: rgb(20, 20, 54);
 
 }
    
@@ -50,6 +51,8 @@
  .image_container{
     border-radius: 50%;
     overflow: hidden;
+    margin-top: 100px;
+    
 
  }
 /* this code for fixed the width and height the image */
@@ -60,7 +63,7 @@
 /*this line for about section h2 font-size, font weight,margin bottom  */
 .about_section h2{
 
-    font-size: 70px;
+    font-size: 45px;
     font-weight: 400;
     margin-bottom: 20px;
     
@@ -85,7 +88,7 @@
 .biography_section ul{
     margin-left: 5opx;
 }
-
+/* this line for footer */
 .biography_section li {
     margin-bottom: 15px;
 
