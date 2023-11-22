@@ -70,8 +70,10 @@
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 1.2px;
+    text-align: justify;
 }
-/* this line all about biography section (h3,ul,li) */
+/* this line all about biography section (h3,ul,li)
+ */
 .biography_section{
     margin:50px 0;
 }
@@ -87,6 +89,14 @@
 .biography_section li {
     margin-bottom: 15px;
 
+}
+footer{
+    margin: 50px 0;
+
+}
+
+footer p{
+    text-align: end;
 }
 
 
